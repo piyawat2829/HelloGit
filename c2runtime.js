@@ -17372,8 +17372,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Text,
 	cr.plugins_.Sprite,
 	cr.plugins_.Mouse.prototype.cnds.OnObjectClicked,
-	cr.system_object.prototype.acts.SetCanvasSize,
+	cr.system_object.prototype.acts.AddVar,
 	cr.system_object.prototype.cnds.CompareVar,
 	cr.plugins_.Text.prototype.acts.SetText
 ];};
-
